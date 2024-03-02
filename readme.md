@@ -1,4 +1,4 @@
-# v0.1 AutoCCTV使用文档
+# AutoCCTV使用文档
 
 ## 1. 引言
 
@@ -18,7 +18,22 @@ https://github.com/Return-Log/AutoCCTV
 
 Windows10、Windows11
 
-## 2. 设置定时启动
+### 1.5声明
+
+Copyright © 2023-2024 李明锐. All Rights Reserved.
+本软件根据GNU通用公共许可证第3版(GPLv3)发布。
+
+## 2.更新说明
+
+### v0.2
+
+1.添加开机自启动选项
+
+2.运行时自动缩小至任务栏 
+
+3.更改主题颜色
+
+## v0.1版本设置定时启动
 
 #### 2.1 打开计划任务程序
 
