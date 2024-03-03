@@ -25,6 +25,7 @@ from tkinter import ttk
 from tkinter import messagebox
 import os
 import win32com.client
+import sys  # 导入sys模块
 
 # 设置全局变量
 url = "https://tv.cctv.com/live/index.shtml"
@@ -170,7 +171,7 @@ class App:
 
     def create_startup_shortcut(self):
         # 获取当前脚本的路径
-        script_path = os.path.realpath(__file__)
+        script_path = sys.argv[0]  # 获取封装后的exe文件的路径
 
         # 创建快捷方式
         startup_folder = os.path.join(os.environ["APPDATA"], r"Microsoft\Windows\Start Menu\Programs\Startup")
