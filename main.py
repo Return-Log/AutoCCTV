@@ -194,9 +194,19 @@ class App:
         # 窗口关闭事件处理
         self.root.iconify()  # 最小化窗口
 
+
 # 运行GUI
+# 获取当前脚本的目录
+script_directory = os.path.dirname(sys.argv[0])
+icon_path = os.path.join(script_directory, 'icon.ico')
+
 root = tk.Tk()
-icon_path = os.path.join(os.path.dirname(__file__), 'icon.ico')
-root.iconbitmap(icon_path)  # 设置自定义图标
+
+# 设置图标
+if os.path.exists(icon_path):
+    root.iconbitmap(icon_path)
+else:
+    print("图标文件不存在：", icon_path)
+
 app = App(root)
 root.mainloop()
