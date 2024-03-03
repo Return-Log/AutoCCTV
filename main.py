@@ -196,6 +196,6 @@ class App:
 
 # 运行GUI
 root = tk.Tk()
-root.iconbitmap('icon.ico')  # 设置自定义图标
+root.iconbitmap('icon.ico')  # 设置自定义图标，封装时必须使用绝对路径
 app = App(root)
 root.mainloop()
