@@ -4,7 +4,7 @@
 
 ### 1.1 简述
 
-***AutoCCTV 可在系统时间 18：59 时自动开启默认浏览器并转到 https://tv.cctv.com/live/index.shtml 播放 CCTV13 ，并在开启浏览器5秒后在屏幕中心模拟鼠标双击使直播全屏播放，在系统时间 19：30 时自动关闭浏览器。***
+***AutoCCTV 可设定时间自动开启默认浏览器并转到 https://tv.cctv.com/live/index.shtml 播放 CCTV13 ，并在开启浏览器5秒后在屏幕中心模拟鼠标双击使直播全屏播放，在设定的结束时间自动关闭浏览器。***
 
 ### 1.2 开发环境
 
@@ -23,7 +23,16 @@ Windows10、Windows11
 Copyright © 2023-2024 李明锐. All Rights Reserved.
 本软件根据GNU通用公共许可证第3版(GPLv3)发布。
 
+### 1.6图标归属
+<a href="https://www.flaticon.com/free-icons/television" title="television icons">Television icons created by Freepik - Flaticon</a>
+
 ## 2.更新说明
+
+### v0.3
+
+1.增加自定义播放时间功能
+
+2.自动将未处于屏幕中心的窗口最大化
 
 ### v0.2
 
